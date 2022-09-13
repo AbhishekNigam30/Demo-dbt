@@ -1,0 +1,11 @@
+your_profile_name:
+  target: default
+  outputs:
+    default:
+      type: databricks
+      catalog: [optional catalog name, if you are using Unity Catalog, only available in dbt-databricks>=1.1.1]
+      schema: [default]
+      host: [adb-8517359562713273.13.azuredatabricks.net]
+      http_path: [sql/protocolv1/o/8517359562713273/0907-110859-du7bhloi]
+      token: [dapic21325e79211272974dba6126b310ff1-3] # Personal Access Token (PAT)
+      threads: [1 or more]  # optional, default 1
