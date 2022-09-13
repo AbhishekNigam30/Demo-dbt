@@ -1,4 +1,4 @@
-your_profile_name:
+databricks_workspace:
   target: default
   outputs:
     default:
